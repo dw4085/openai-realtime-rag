@@ -1,6 +1,9 @@
 # OpenAI Realtime RAG Assistant
 
-This is a fork of [openai-realtime-console](https://github.com/openai/openai-realtime-console) adapted to demonstrate voice based RAG assistants using their [realtime api](https://github.com/openai/openai-realtime-api-beta). All credit to the OpenAI team for putting together the majority of this. Please refer to their original repo for more detailed information on how the backend works.
+This is a fork of 
+[openai-realtime-rag](https://github.com/ALucek/openai-realtime-rag) adapted to demonstrate voice based RAG assistants using 
+OpenAI's [realtime api](https://github.com/openai/openai-realtime-api-beta). All credit to the OpenAI team for putting together the majority of 
+this. Please refer to their original repo for more detailed information on how the backend works.
 
 <img src="/readme/console_screenshot.png" width="800" />
 
@@ -42,7 +45,6 @@ Instructions:
 - Be kind, helpful, and curteous, and conversational
 - It is okay to ask the user questions and followups
 - The user will always start the conversation by saying Hello
-- Generate your responses as if they are conversational and informal- stray away from super long complex structured responses but maintain the core crucial information
 
 Personality:
 - Be upbeat and genuine, like a true marketer!
