@@ -354,7 +354,7 @@ export function ConsolePage() {
 
     // Set instructions
     client.updateSession({ instructions: instructions });
-    client.updateSession({ voice: 'echo'})
+    client.updateSession({ voice: 'alloy'})
     // Set transcription, otherwise we don't get user transcriptions back
     client.updateSession({ input_audio_transcription: { model: 'whisper-1' } });
 
@@ -447,8 +447,8 @@ export function ConsolePage() {
     <div data-component="ConsolePage">
       <div className="content-top">
         <div className="content-title">
-          <img src="/openai-logomark.svg" />
-          <span>Realtime RAG Assistant - Prepared By Adam Lucek</span>
+          <img src="/cbs_logo.png" />
+          <span>Technology Strategy Case Companion</span>
         </div>
         <div className="content-api-key">
           {!LOCAL_RELAY_SERVER_URL && (
